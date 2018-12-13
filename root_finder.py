@@ -88,7 +88,7 @@ def false_pos(f, a, b, epsilon, maxIter=100):
 
 def mpf(f, iter_func, x0, epsilon, maxIter):
     
-    #check if the criteria for stopping has been achieved
+    #check if the criteria for stopping has been already achieved
     if abs(f(x0)) < epsilon:
         x = x0
         return (False, x)
