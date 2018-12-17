@@ -1,0 +1,8 @@
+def f(x):
+    return 1/x
+
+def f2(x):
+    return 0.2+(25*x)-(200*x**2)+(675*x**3)-(900*x**4)+(400*x**5)
+
+def f3(x):
+    return 2*x + 1
